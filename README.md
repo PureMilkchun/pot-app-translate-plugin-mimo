@@ -74,4 +74,3 @@ MIT License
 - [Pot 官方网站](https://pot-app.com)
 - [小米 MiMo 官方文档](https://ai.xiaomi.com)
 - [插件模板](https://github.com/pot-app/pot-app-translate-plugin-template)
-- [本插件仓库](https://github.com/pot-app/pot-app-translate-plugin-mimo)
