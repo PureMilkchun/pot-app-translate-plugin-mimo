@@ -16,17 +16,7 @@
 2. 下载最新的 `plugin.com.pot-app.mimo.potext` 文件
 3. 在 Pot 应用中导入插件
 
-### 方法2：手动构建
-1. 克隆仓库：
-   ```bash
-   git clone https://github.com/pot-app/pot-app-translate-plugin-mimo.git
-   cd pot-app-translate-plugin-mimo
-   ```
-2. 打包插件：
-   ```bash
-   zip plugin.com.pot-app.mimo.potext main.js info.json mimo.svg README.md
-   ```
-3. 在 Pot 应用中导入生成的 `.potext` 文件
+
 
 ## 配置说明
 
@@ -38,7 +28,6 @@
 
 - **模型选择**: 
   - `mimo-v2-flash` (默认) - 快速轻量模型
-  - `mimo-v2` - 标准模型
 - **API地址**: 自定义 API 地址（默认使用 `https://api.xiaomimimo.com/v1`）
 
 ## 支持语言
@@ -69,19 +58,12 @@
 
 ## 获取 API 密钥
 
-1. 访问小米开发者平台：https://ai.xiaomi.com
+1. 访问小米开发者平台：https://mimo.xiaomi.com
 2. 注册开发者账号
 3. 申请 MiMo API 访问权限
 4. 获取 API 密钥
 
-## 开发构建
 
-本插件使用 GitHub Actions 自动构建：
-- **触发条件**: 推送到 `main` 分支
-- **自动任务**: 
-  - 构建 `.potext` 插件包
-  - 上传到 Artifacts
-  - 创建 Release（当打标签时）
 
 ## 许可证
 
